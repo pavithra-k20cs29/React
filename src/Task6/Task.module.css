@@ -1,0 +1,24 @@
+#task{
+    background-image: linear-gradient(to right, rgb(86, 6, 132) , rgb(206, 6, 183));
+    height: 100vh;
+    padding: 40px;  
+}
+.form-control{
+    width: 100px;
+}
+#div{
+    border-radius: 10px;
+}
+
+.btn{
+    margin: 20px;
+    width: 400px;
+    background-color: green;
+    border-color: green;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: rgb(2, 59, 17);
+    border-color: rgb(2, 59, 17);
+    border-radius: 50px;
+}

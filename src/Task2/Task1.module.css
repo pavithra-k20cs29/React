@@ -1,0 +1,9 @@
+.task{
+    background-image: url(https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png);
+    height: 100vh;
+}
+.cards{
+    text-align: center;
+    align-content: center;
+    margin-left: 450px;
+}

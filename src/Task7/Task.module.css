@@ -1,0 +1,17 @@
+#task{
+    background-color: rgb(230, 247, 253);
+    width: 1300px;
+    height: 120vh;
+}
+.card1{
+    box-shadow: 0px -5px 0px 0px rgba(223, 16, 16, 0.797)
+}
+.card2{
+    box-shadow: 0px -5px 0px 0px rgba(5, 185, 217, 0.797)
+}
+.card3{
+    box-shadow: 0px -5px 0px 0px rgba(5, 191, 30, 0.797)
+}
+.card4{
+    box-shadow: 0px -5px 0px 0px rgba(246, 169, 3, 0.797)
+}

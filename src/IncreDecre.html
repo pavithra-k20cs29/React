@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>Value: <span id="value">0</span></p>
+    
+    <button onclick="incrementValue()">Increment</button>
+    <button onclick="decrementValue()">Decrement</button>
+    <button onclick="resetValue()">Reset</button>
+    
+    <script>
+      var value = 0; 
+    
+      function incrementValue() {
+        var incrementBy = 1; 
+        value += incrementBy; 
+        document.getElementById('value').textContent = value; 
+      }
+      function decrementValue() {
+        var incrementBy = 1; 
+        value -= incrementBy; 
+        document.getElementById('value').textContent = value; 
+      }
+      function resetValue() {
+        var reset = 0;
+        value=reset;
+        document.getElementById('value').textContent = value;
+      }
+
+    </script>
+ 
+
+
+
+
+
+    <!-- <div>
+    <button id="btn1" onclick="Increment()"> Increment </button>
+    <h1 id="value"> </h1>
+    </div>
+    <button id="btn2" onclick="Decrement()"> Decrement </button>
+
+    <button id="btn3" onclick="Reset()"> Reset </button>
+
+
+
+    <script src="./IncreDecre.js">
+
+    </script> -->
+</body>
+</html>
